@@ -62,6 +62,9 @@ public class HapiTest {
 		try {
 			HapiTest test = new HapiTest();
 			test.printIdentifiers();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.exit(1);
 		} finally {
 			System.exit(0);
 		}
